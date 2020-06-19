@@ -1,0 +1,49 @@
+.author-div{
+    text-align: center;
+    padding: 1rem;
+
+}
+.author-div div{
+    margin-bottom: 1rem;
+
+}
+.author-introduction{
+    font-size:.8rem;
+    color: #999;
+}
+.account-git{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.account-git:hover{
+    background-color: #999;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    content: url("https://wx4.sinaimg.cn/mw690/006Eayugly1gfx9zwbz5gj30dw0dwglr.jpg");
+}
+.account-zh{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.account-zh:hover{
+    background-color: #999;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    content: url("https://wx2.sinaimg.cn/mw690/006Eayugly1gfxaie07z3j30dw0dwdg2.jpg");
+}
+.account-wx{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.account-wx:hover{
+    background-color: #999;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    content: url("https://wx1.sinaimg.cn/mw690/006Eayugly1gfx9zwt900j30dw0dw0t2.jpg");
+}
+.social:hover{
+    color: orange;
+}
