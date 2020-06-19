@@ -3,7 +3,9 @@ import Head from 'next/head'
 import {Row, Col , List ,Icon} from 'antd'
 import Header from '../components/Header'
 import Author from '../components/Author'
+import Advert from '../components/Advert'
 import '../static/style/pages/index.css'
+import Footer from '../components/Footer'
 const Home = () => {
   const [ mylist , setMylist ] = useState(
     [
@@ -42,10 +44,11 @@ const Home = () => {
       </Col>
 
       <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
-        <Author/>
-      </Col>
+  <Author />
+  <Advert />
+</Col>
     </Row>
-
+    <Footer />
  </>
   )
 }
